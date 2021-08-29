@@ -18,7 +18,7 @@ namespace ConsoleApp1
         override
         public string ToString()
         {
-            return $"Id:{station_id} Bikes:{num_bikes_available} Docks:{num_docks_available} Name:{name}\n";
+            return $"Name: {name} || Id:{station_id} || Bikes:{num_bikes_available} || Docks:{num_docks_available} \n\n";
         }
     }
 
