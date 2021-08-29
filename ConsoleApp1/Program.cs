@@ -5,6 +5,13 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
+
+/**
+ * Enkel konsoll applikasjon som henter data fra 2 API 
+ * Hentet data blir satt in i klasse objekter og printet i konsollen
+ * 
+ */
+
 namespace ConsoleApp1
 {
     class Program
