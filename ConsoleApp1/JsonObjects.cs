@@ -25,6 +25,11 @@ namespace ConsoleApp1
     public class Data
     {
         public List<Station> stations { get; set; }
+
+        public void printOut()
+        {
+            stations.ForEach(result => Console.WriteLine(result.ToString()));
+        }
     }
 
     public class Root
